@@ -1,0 +1,103 @@
+.green_button {
+  color: white;
+  background-color: cadetblue;
+  padding: 20px 30px;
+  margin: 15px 30px;
+}
+.drawer_container {
+  height: 100vh !important;
+}
+.drawer_title {
+  display: flex;
+  gap: 15px;
+}
+.drawer_title_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input_box_style {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 7px 10px;
+}
+.body_container {
+  box-sizing: border-box;
+}
+.ant-drawer-header {
+  padding: 16px 20px !important;
+}
+.ant-drawer-body {
+  padding: 16px 20px !important;
+}
+.space_align {
+  display: flex;
+  justify-content: flex-end;
+}
+.details_container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  box-sizing: border-box;
+}
+.details_container1 {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  box-sizing: border-box;
+}
+.input_container i {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.input_container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+.custom_badge .ant-badge-dot {
+  width: 20px !important;
+  height: 20px !important;
+}
+.minus_symbol {
+  padding: 8px;
+  background-color: rgb(214, 244, 234);
+}
+.add_schema {
+  margin: 20px 0 0 15px;
+  text-decoration: underline;
+  color: darkcyan;
+}
+.footer_container {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  position: absolute;
+  padding: 10px;
+  margin-left: -20px;
+  bottom: 0;
+  height: 10%;
+  width: 100%;
+  background-color: #f0f2f5;
+}
+.save_btn {
+  color: white;
+  background-color: darkcyan;
+}
+.cancel_btn {
+  color: red;
+}
+.btn {
+  margin-top: 10px;
+  background-color: darkcyan;
+  color: white;
+  padding: 5px 15px;
+}
